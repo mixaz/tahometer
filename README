@@ -1,0 +1,14 @@
+Tahometer on STM32
+
+This is a very simple project I made for a friend. MCU gets input (pin B8) from a car's (Russian UAZ) tahomemeter. The signal is a square pulse. When it reaches 60Hz then the output pin C13 gets 1. When the signal exceeds 70Hz then the second output pin C14 gets 1 as well.
+
+The code shows usage of interrupts both from input pin, and from internal timer.
+
+Meassurement delay is 1 second. No filter for possible noise implemented. No power consuption features implemented.
+Consider this as a learning project for STM32 programming.
+
+Written in Arduino IDE with STM32 core installed https://github.com/stm32duino/Arduino_Core_STM32, on STM32F103C8T6 dev board (Blue Pill)
+
+The project doesn't use any STM32 specific feature, something similiar could be implemented on Atmega chips as well (and frankly speaking STM32 features are an overkill for this task, Atmega's 8bits chip probably would be enough as well)
+
+If you need to code firmware for MCU / IoT / embedded Linux / Android systems / RTOS - you can reach me at gmixaz@gmail.com (Upwork profile https://www.upwork.com/freelancers/~015014cada179b4e70)
