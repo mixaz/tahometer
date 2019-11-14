@@ -11,4 +11,6 @@ Written in Arduino IDE with STM32 core installed https://github.com/stm32duino/A
 
 The project doesn't use any STM32 specific feature, something similiar could be implemented on Atmega chips as well (and frankly speaking STM32 features are an overkill for this task, Atmega's 8bits chip probably would be enough as well)
 
+ADDED: taho_stm8.c - code for STM8S.
+
 If you need to code firmware for MCU / IoT / embedded Linux / Android systems / RTOS - you can reach me at gmixaz@gmail.com (Upwork profile https://www.upwork.com/freelancers/~015014cada179b4e70)
