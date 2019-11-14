@@ -94,6 +94,6 @@ void InitLED()
     PB_CR2_bit.C24 = 1; // inerep 1
 
     EXTI_CR1_bit.PBIS = 2;
-};
+}
 
 
